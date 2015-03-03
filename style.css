@@ -6,12 +6,10 @@ body {
 
 h1 {
   font-size: 3.5em;
-  color: blue;
 }
 div {
 	background: green;
 	width: 50%;
 }
 .mage {
-	color: red;
 }
