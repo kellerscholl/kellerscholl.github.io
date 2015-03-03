@@ -1,17 +1,24 @@
 body {
   font-family: Georgia, sans-serif;
-  background: #75b5aa;
+  background: white;
   color: black;
 }
 
 h1 {
   font-size: 3.5em;
-  color: blue;
 }
 div {
-	background: green;
+	background: white;
 	width: 50%;
 }
-.mage {
-	color: red;
+.box {
+	background: blue;
+	float: left;
+	width: 20%;
+	padding: 10;
+}
+.wizard{
+	background: red;
+	float: right;
+	width: 75%;
 }
