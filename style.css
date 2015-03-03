@@ -11,5 +11,13 @@ div {
 	background: green;
 	width: 50%;
 }
-.mage {
+.warlock {
+	background: green;
+	float: left;
+	width: 20%;
+}
+.wizard{
+	background: red;
+	float: right;
+	width: 75%;
 }
