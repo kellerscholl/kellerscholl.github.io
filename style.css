@@ -1,0 +1,17 @@
+body {
+  font-family: Georgia, sans-serif;
+  background: #75b5aa;
+  color: black;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: blue;
+}
+div {
+	background: green;
+	width: 50%;
+}
+.mage {
+	color: red;
+}
