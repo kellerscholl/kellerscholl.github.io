@@ -6,8 +6,12 @@ body {
 
 h1 {
   font-size: 3.5em;
-  color: #ffffff;
+  color: blue;
 }
 div {
-	background: yellow;
+	background: green;
+	width: 50%;
+}
+h1.mage {
+	color: red;
 }
