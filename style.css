@@ -11,10 +11,11 @@ div {
 	background: green;
 	width: 50%;
 }
-.warlock {
-	background: green;
+.box {
+	background: blue;
 	float: left;
 	width: 20%;
+	padding: 10;
 }
 .wizard{
 	background: red;
