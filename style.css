@@ -1,14 +1,13 @@
 body {
   font-family: Georgia, sans-serif;
-  background: white;
-  color: black;
+  background: black;
+  color: white;
 }
 
 h1 {
   font-size: 3.5em;
 }
 div {
-	background: white;
 	width: 50%;
 }
 .box {
@@ -21,4 +20,9 @@ div {
 	background: red;
 	float: right;
 	width: 75%;
+}
+
+a, a:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
 }

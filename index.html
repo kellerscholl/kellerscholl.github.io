@@ -3,18 +3,28 @@
 <head>
  	<title>Keller Scholl's Home Page</title>
  	<link href="style.css" rel="stylesheet" type="text/css">
+ 	 <style type="text/css">
+		.row { vertical-align: top; height:auto !important; }
+		.list {display:none; }
+		.show {display: none; }
+		.hide:target + .show {display: inline; }
+		.hide:target {display: none; }
+		.hide:target ~ .list {display:inline; }
+		@media print { .hide, .show { display: none; } }
+	</style>
 </head>
 <body>
 	<div><h1>Keller Scholl's Site</h1></div>
-	<div>
-		<u1>
-			<li>Social Sciences.
-				<ul>
-					<li>Blog posts</li>
-					<li>Research Interests</li>
-				</ul>
-			</li>
-
+	<div class="row">
+	<a href="#hide1" class="hide" id="hide1">Social Sciences</a>
+	<a href="#show1" class="show" id="show1">Social Sciences</a>
+	<div class="list">
+		<ul>
+			<li>Blog posts</li>
+			<li>Research Interests</li>
+		</ul>
+		</div>
+	</div><!-- 
 			<li>Philosophy
 				<ul>
 					<li> Blog posts </li>
@@ -23,15 +33,21 @@
 				</ul>
 			</li>
 			<li> Programming
-				<u1>
+				<ul>
+					<li> <a href="http://github.com/kellerscholl">Github </a> </li>
+					<li><a href="http://esyskim.co.uk">EasySkim </a> </li>
+				</ul>
+
+
+
 					<li> <a href="http://github.com/kellerscholl">Github</a></li>
 					<li><a href="http://EasySkim.co.uk">EasySkim</a></li>
-				</u1>
+				</u1> 
 			 </li>
 			 <li>Contact info</li>
 			 <li><a href="resume.pdf">Resume</a></li>
 		</u1>
-	</div>
+	</div> -->
 </body>
 <!--  Congratulations. You have entered the super-secret lair section of the website! -->
 </html>
