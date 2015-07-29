@@ -10,7 +10,11 @@
  
     $( document ).ready(function() {
  
-      alert( "welcome" );
+      // alert( "welcome" );
+      $( "a" ).click(function( event ) {
+          alert( "The link will no longer take you to jquery.com" );
+          event.preventDefault();
+        });
  
     });
         
