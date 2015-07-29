@@ -1,16 +1,19 @@
 <html>
   <head>
-    <title>Hangout button demo: Async load</title>
+    <title>jQuery testing.</title>
     <link rel="canonical" href="http://www.example.com" />
-    <script src="https://apis.google.com/js/platform.js" async defer>
-    </script>
   </head>
   <body>
-    <g:hangout render="createhangout"
-        invites="[{ id : 'keller.scholl@gmail.com', invite_type : 'EMAIL' }]"
-        <!-- hangout_type="onair" -->
-        topic="Proof of basic competency.">
-    </g:hangout>
-
+    <a href="http://jquery.com/">jQuery</a>
+    <script src="app/bower_components/jquery/dist/jquery.js"></script>
+    <script>
+ 
+      window.onload = function() {
+ 
+        alert( "welcome" );
+ 
+      };
+ 
+    </script>
   </body>
 </html>
