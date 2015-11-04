@@ -1,0 +1,23 @@
+TODO: Sketch out numbers
+1. Give people sliders for how much they expect sharing economy to decrease labor and decrease capital costs.
+Behind the scenes, weight each for the fraction of the total economy that they consist of. As a simplifying assumption at first, perhaps assume every industry has the same capital:labor cost ratio?
+Y = A (E_k * K)^alpha (E_l * L)^(1-alpha)
+Alpha: .3
+Decreasing labor costs by X is the same as increasing the amount of labor by 1/(1-x). The sliders that people control will affect E_l and E_k, which are the efficiency of labor and capital respectively.
+So if you expect average labor costs to halve, then you expect the total amount of effective labour to double.
+Furthermore, there will be a knock-on effect, because increased spending increases investment.
+In non-equilibrium environment, caused by growth, unemployment will fall and inflation will increase. Expected that half of GDP growth decreases inflation.
+
+From T1 to T10, shift E_k and E_l from 1 to new values by 10% of given amount. In starting state, Investment is a fixed proportion p1 of Y, and depreciation is a fixed percentage p2 of K.
+
+change_in_k(Y, K):
+	return Y*p1-K*p2
+
+Y(K,L,E_k,E_l, alpha=.3):
+	return (E_k * K)**.26 (E_l * L)**.74
+
+p1 for the US is estimated at 12.8% (https://en.wikipedia.org/wiki/List_of_countries_by_gross_fixed_investment_as_percentage_of_GDP)
+
+Worries that US isn't actually Cobb-Douglas: http://scholar.harvard.edu/files/antras/files/cespublished.pdf
+
+Recalculate each based on last year's data.
