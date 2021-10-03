@@ -1,4 +1,3 @@
-# khs.github.io
-Keller's personal website
+# kellerscholl.com
 
-This is my personal website. Nothing particularly exciting, but I wanted to have a solid base to work with before doing anything interesting. 
+Hello! My name is Keller, and it's nice to meet you.
