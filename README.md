@@ -1,4 +1,3 @@
-# khs.github.io
-Keller's personal website
+# Keller's personal website
 
-This is my personal website. Nothing particularly exciting, but I wanted to have a solid base to work with before doing anything interesting. 
+Hello, and welcome to my personal website. You might enjoy checking out my [resume](kellerscholl.com/resume.pdf) or my [substack](keller.substack.com).
