@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>Keller's Home Page</title>
+ 	<link href="style.css" rel="stylesheet" type="text/css">
+ 	 <style type="text/css">
+		.row { vertical-align: top; height:auto !important; }
+		.list {display:none; }
+		.show {display: none; }
+		.hide:target + .show {display: inline; }
+		.hide:target {display: none; }
+		.hide:target ~ .list {display:inline; }
+		@media print { .hide, .show { display: none; } }
+	</style>
+</head>
+<body>
+	<li>Hello, this is my personal website. You might be interested in my <a href="http://keller.substack.com>substack</a> or my <a href="resume.pdf">resume</a>.</li>
+</body>
+</html>
